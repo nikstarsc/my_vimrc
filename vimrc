@@ -74,7 +74,7 @@ Plugin 'airblade/vim-gitgutter'
 " Highlights trailing whitespace in red and provides: FixWhitespace to fix it.
 Plugin 'bronson/vim-trailing-whitespace'
 
-" ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) 
+" ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors)
 Plugin 'w0rp/ale'
 
 call vundle#end()
@@ -84,6 +84,9 @@ filetype plugin indent on
 
 set nu 			" Enable line numbers
 syntax on		" Enable
+
+set lcs+=space:·    " Show whitespaces as .
+set list
 
 " How many columns of whitespace a \t is worth
 " set tabstop=4
